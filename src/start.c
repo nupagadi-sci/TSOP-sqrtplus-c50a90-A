@@ -610,7 +610,6 @@ Nt=Nt;
 					}
 				}
 
-/*
 				pT = prootU;
 				while(pT=pT->pnext)
 					if(pT->isActive)
@@ -622,7 +621,6 @@ Nt=Nt;
 						ptmp = prootU;	while((ptmp=ptmp->pnext)->pnext);
 						ptmp->pnext = pT2;
 					};
-*/
 
 				free(pQap);
 				pQap = malloc(Nap*Nq*sizeof(double));				
